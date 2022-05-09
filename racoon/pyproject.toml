@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "racoon"
+version = "0.1.0"
+description = ""
+authors = ["ktrw <ktr.w1011@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pandas = "^1.4.1"
+scikit-learn = "^1.0.2"
+category-encoders = "^2.3.0"
+lightgbm = "^3.3.2"
+xgboost = "^1.5.2"
+catboost = "^1.0.4"
+datasets = "^1.18.4"
+ipynb-path = "^0.1.4"
+xfeat = {git = "https://github.com/pfnet-research/xfeat.git"}
+
+[tool.poetry.dev-dependencies]
+jupyterlab = "3.3.0"
+
+[tool.poetry.scripts]
+racoon-exp = "racoon.exp:main"
+
+[build-system]
+requires = ["poetry>=0.12", "setuptools"]
+build-backend = "poetry.masonry.api"
