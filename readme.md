@@ -7,7 +7,7 @@ https://comp.probspace.com/competitions/bnb_price
 - [junei.t.520.5](https://comp.probspace.com/users/junei.t.520.5/0)
 
 ## WIP
-* [ ] adding junei code
+* [X] adding junei code
 
 ## CV
 KFold(n_split=5)
